@@ -1,0 +1,24 @@
+Source: php-fzaninotto-faker
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13),
+               jq,
+               appstream,
+Standards-Version: 4.7.0
+Homepage: https://github.com/fzaninotto/Faker
+Vcs-Git: https://github.com/Vitexus/Faker.git
+Vcs-Browser: https://github.com/Vitexus/Faker
+
+Package: php-fzaninotto-faker
+Architecture: all
+Depends: ${misc:Depends},
+         composer,
+         php-common,
+Description: PHP library that generates fake data for testing
+ Faker is a PHP library that generates fake data for you. Whether you need
+ to bootstrap your database, create good-looking XML documents, fill-in
+ your persistence to stress test it, or anonymize data taken from a
+ production service, Faker is for you.
+ .
+ It is heavily inspired by Perl's Data::Faker, and by Ruby's Faker.

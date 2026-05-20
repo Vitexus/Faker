@@ -1,0 +1,24 @@
+<component type="generic">
+  <id>io.github.fzaninotto.faker</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Faker</name>
+  <summary>PHP library that generates fake data</summary>
+  <description>
+    <p>
+      Faker is a PHP library that generates fake data for you. Whether you need to bootstrap
+      your database, create good-looking XML documents, fill-in your persistence to stress
+      test it, or anonymise data taken from a production service, Faker is for you.
+    </p>
+    <p>
+      It is heavily inspired by Perl's Data::Faker and Ruby's Faker. Faker supports many
+      locales and can generate names, addresses, phone numbers, lorem text, dates, internet
+      data, barcodes, colours, and much more.
+    </p>
+  </description>
+  <icon type="stock">package-x-generic</icon>
+  <url type="homepage">https://github.com/fzaninotto/Faker</url>
+  <developer id="io.github.fzaninotto">
+    <name>François Zaninotto</name>
+  </developer>
+</component>
